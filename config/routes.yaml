@@ -2,6 +2,11 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-hello:
-    path: /hello-world
-    controller: App\Controller\HomeController::hello
+
+
+home:
+    path: /home
+    controller: App\Controller\HomeController::home
+
+
+
