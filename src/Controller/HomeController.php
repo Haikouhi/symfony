@@ -43,10 +43,11 @@ class HomeController extends AbstractController {
         // dump($test2);
         // dump($test3);
 
+        $produit = $repository->findAll();
 
 
 
 
-        return $this->render('home/home.html.twig');
+        return $this->render('home/home.html.twig', compact('produits'));
     }
 }
